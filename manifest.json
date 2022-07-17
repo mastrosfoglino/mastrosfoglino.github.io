@@ -1,5 +1,5 @@
 {
-    "name”:”Mastro Sfoglino”,”short_name”:”mastrosfoglino”,”start_url": "/",
+    "name”:”Mastro Sfoglino”,”short_name”:”Mastro Sfoglino”,”start_url": "/",
     "display": "standalone",
     "icons": [
         {
