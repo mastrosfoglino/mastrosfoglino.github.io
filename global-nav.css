@@ -874,11 +874,13 @@ body.mobile .audio-player {
   margin-top: 1rem;
 }
 
-.mobile #header {
+@media only screen and (max-width: 767px) {
+  #header {
   display: flex;
   padding: 2rem;
   margin: 0 0rem;
   margin-top: 0rem;
+}
 }
 
 .nav {
