@@ -27,68 +27,6 @@ html.noscroll-long {
   overflow-y: scroll !important;
 }
 
-#toolset {
-  display: none;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 8;
-}
-
-.btn {
--webkit-align-items: center;
-align-items: center;
-background-color: transparent;
-border: 1px solid #000;
-border-radius: 0;
-color: #000;
-cursor: pointer;
-display: -webkit-flex;
-display: flex;
-font-family: Open Sans,sans-serif;
-font-size: 1rem;
-font-weight: 700;
--webkit-justify-content: center;
-justify-content: center;
-line-height: 120%;
-padding: 1rem;
-text-align: center;
-text-decoration: none;
-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
--webkit-user-select: none;
--ms-user-select: none;
-user-select: none;
-vertical-align: middle;
-}
-
-.btn:hover {
-background-color: #f8f8f8;
-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-
-.mobile .mobile-display-none {
-	display: none;
-}
-
-.grid-powered-paypal {
-	display: flex;
-    float: right;
-}
-
-.mobile .grid-powered-paypal {
-	display: flex;
-    float: none;
-}
-
-.grid-powered-text {
-	display: flex;
-    margin-right: 0.5rem;
-}
-
-.powered-paypal svg {
-	height: 24px;
-}
-
 *,
 :after,
 :before {
@@ -119,25 +57,6 @@ input {
 
 input[type="checkbox"] {
   position: relative;
-}
-
-/**
- * Content
- */
-
-.main_container {
-  min-height: 100vh;
-  overflow: hidden;
-  margin-top: -132px;
-}
-
-.mobile .main_container {
-  margin-top: -116px;
-}
-
-body {
-  background-color: #fff;
-  color: #000;
 }
 
 a:active {
