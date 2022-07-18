@@ -395,7 +395,7 @@ margin-left: 4rem;
   position: fixed;
   transition: all 0.5s ease-in-out;
   padding: 4rem;
-  border-radius: .5rem;
+  border-radius: 1rem;
   overflow: overlay;
   z-index: 9999;
   
