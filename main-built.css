@@ -26,3 +26,315 @@ html.noscroll body {
 html.noscroll-long {
   overflow-y: scroll !important;
 }
+
+body,
+input,
+textarea,
+select,
+label,
+button {
+  font-synthesis: none;
+  -moz-font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr;
+  text-align: left;
+}
+
+input {
+  display: none;
+}
+
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+p + *,
+ul + *,
+ol + * {
+  margin-top: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+fieldset,
+iframe {
+  border: 0;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+body,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
+  display: block;
+}
+
+audio,
+canvas,
+video,
+progress {
+  vertical-align: baseline;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  position: relative;
+}
+
+/**
+ * Content
+ */
+
+a:active {
+  opacity: 0.8;
+}
+
+.page a.active {
+  opacity: 0.5;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: 700 !important;
+}
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  top: 0.3em;
+}
+
+sup {
+  top: -0.4em;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+img {
+  border: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 2em;
+}
+
+hr {
+  background: rgba(127, 127, 127, 0.2);
+  border: 0;
+  height: 1px;
+  display: block;
+}
+
+.content img {
+  float: none;
+  margin-bottom: 0.5em;
+}
+
+/**
+ * Editor styles
+ */
+
+/* BODY */
+
+body {
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  min-width: 200px;
+  background-color: #ffffff;
+  color: #1d1d1f;
+}
+
+body a {
+  color: #000;
+  padding-bottom: 0.1em;
+  border-bottom: 0em solid rgba(127, 127, 127, 0.2);
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body a.image-link,
+body a.icon-link,
+body a.image-link:hover,
+body a.icon-link:hover {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+h1 a {
+  color: #000;
+}
+
+h2 {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h2 a {
+  color: #000;
+}
+
+h3 {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 a {
+  color: #000;
+}
+
+h6 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-style: normal;
+  color: #000;
+}
+
+h6 a {
+  color: #000;
+  border-bottom-width: 0em;
+}
+
+h6 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+small {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+small a {
+  color: #000;
+  border-bottom-width: 0em;
+}
+
+small a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: ;
+  padding: 0 4rem;
+}
