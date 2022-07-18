@@ -515,7 +515,7 @@ small a:hover {
 .toggle {
   margin-bottom: 0.375rem;
   margin-left: 3rem;
-  margin-top: 0.375rem;
+  margin-top: 1rem;
 }
 
 .toggle input[type="checkbox"] {
