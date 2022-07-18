@@ -398,7 +398,15 @@ margin-left: 4rem;
   border-radius: 1rem;
   overflow: overlay;
   z-index: 9999;
-  
+}
+
+@media only screen and (max-width: 767px) {
+  .cookie-banner,
+.cookie-settings {
+margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+}
 }
 
 .cookie-banner a,
@@ -410,6 +418,13 @@ margin-left: 4rem;
 .cookie-settings.active {
   bottom: 4rem;
   transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+  .cookie-banner.active,
+.cookie-settings.active {
+  bottom: 2rem;
+}
 }
 
 .cookie-banner-description {
@@ -462,7 +477,7 @@ margin-left: 4rem;
 }
 
 .cookie-banner-actions > button:first-child {
-  margin-bottom: 1;
+  margin-bottom: 1rem;
 }
 
 .cookie-banner-actions > button:last-child {
