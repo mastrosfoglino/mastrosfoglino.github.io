@@ -21,11 +21,11 @@ html.noscroll-long {
 
 @media only screen and (max-width: 767px) {
   #header {
-  display: flex;
-  padding: 2rem;
-  margin: 0 0rem;
-  margin-top: 0rem;
-}
+    display: flex;
+    padding: 2rem;
+    margin: 0 0rem;
+    margin-top: 0rem;
+  }
 }
 
 .nav {
@@ -130,9 +130,7 @@ html.noscroll-long {
   text-decoration: none;
   text-transform: lowercase;
 }
-#menu .main-nav a:first {
-  padding-top: 0;
-}
+
 #menu .menu-footer {
   padding: 2rem;
   bottom: 0;
@@ -197,7 +195,7 @@ html.noscroll-long {
   transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,
     transform 0.2s linear;
   width: 30px;
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 .toggle-menu span:before {
   top: 6px;
@@ -230,10 +228,6 @@ html.noscroll-long {
  * icon header
  */
 
-.pinned .page_container.overlay[local-style="22305007"] {
-  z-index: 6 !important;
-}
-
 .ghost-header {
   position: fixed;
 }
@@ -246,8 +240,8 @@ html.noscroll-long {
 #mattarello {
   position: relative;
   transition: 0.4s;
-  top: -1.75rem;
-  left: -1.2em;
+  top: -2.5rem;
+  left: -0.5rem;
   width: auto;
   height: auto;
   display: inline-flex;
@@ -273,10 +267,6 @@ html.noscroll-long {
   transform: rotate(-0deg);
 }
 
-.mobile .icon-mattarello svg {
-  left: 0rem;
-}
-
 .logo {
   position: static;
   width: fit-content;
@@ -291,5 +281,3 @@ html.noscroll-long {
   top: 0rem;
   margin-left: 0.4rem;
 }
-
-
