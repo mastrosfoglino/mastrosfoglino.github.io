@@ -1,17 +1,3 @@
-html.noscroll {
-  margin-top: 0 !important;
-}
-
-html.noscroll,
-html.noscroll body {
-  overflow: hidden !important;
-  height: 100% !important;
-}
-
-html.noscroll-long {
-  overflow-y: scroll !important;
-}
-
 #header {
   display: flex;
   padding: 2rem;
