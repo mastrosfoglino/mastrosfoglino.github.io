@@ -416,7 +416,6 @@ small a:hover {
 
 .cookie-banner.active,
 .cookie-settings.active {
-  top: 0;
   bottom: 4rem;
   transition: all 0.5s ease-in-out;
 }
@@ -424,7 +423,6 @@ small a:hover {
 @media only screen and (max-width: 767px) {
   .cookie-banner.active,
   .cookie-settings.active {
-    top: 2rem;
     bottom: 2rem;
   }
 }
